@@ -9,7 +9,7 @@ os:
 notifications:
   email: false
 before_install:
-  - python3 -m pip install python-libsbml --user 
+  - pip install python-libsbml --user 
 jobs:
   include:
     - stage: "Documentation"
