@@ -1,6 +1,6 @@
-name = "SEML"
+name = "testseml"
 uuid = "e6c6abe9-3a28-4002-aeaa-352954e8c108"
-repo = "https://github.com/varnerlab/SEML"
+repo = "https://github.com/ZZP12/testseml.jl.git"
 version = "0.1.0"
 
 [deps]
