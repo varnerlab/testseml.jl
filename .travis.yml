@@ -8,7 +8,8 @@ os:
 
 notifications:
   email: false
-
+before_install:
+  - pip install libsbml 
 jobs:
   include:
     - stage: "Documentation"
