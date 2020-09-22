@@ -9,7 +9,7 @@ os:
 notifications:
   email: false
 before_install:
-  - /usr/bin/python3 -m pip install python-libsbml --user 
+  - sudo apt-get -y install python-libsbml 
 jobs:
   include:
     - stage: "Documentation"
