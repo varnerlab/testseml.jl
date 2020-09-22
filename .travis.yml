@@ -20,5 +20,5 @@ jobs:
       julia: 1.1
       os: linux
       script:
-        - julia -color=yes --project -e 'using Pkg; Pkg.build(; verbose = true); Pkg.test(coverage=true)'
+        - julia --color=yes --project -e 'using Pkg; Pkg.build(; verbose = true); Pkg.test(coverage=true)'
       after_success: skip
