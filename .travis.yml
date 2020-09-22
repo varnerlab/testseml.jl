@@ -9,7 +9,7 @@ os:
 notifications:
   email: false
 before_install:
-  - pip install libsbml 
+  - pip install python-libsbml 
 jobs:
   include:
     - stage: "Documentation"
