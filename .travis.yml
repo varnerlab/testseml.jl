@@ -3,13 +3,16 @@ language: julia
 julia:
   - 1.1
 
+python: 
+  - 3.6 
+
 os:
   - linux
 
 notifications:
   email: false
 before_install:
-  - sudo apt-get -y install python-libsbml 
+  - pip install python-libsbml 
 jobs:
   include:
     - stage: "Documentation"
